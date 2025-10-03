@@ -1,0 +1,145 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b7dff6;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+
+h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  background-color: #026aa7;
+}
+
+
+#cardInp {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 250px;
+  margin-right: 10px;
+  font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+#addCardBtn {
+  padding: 10px 15px;
+  border: none;
+  background-color: #0079bf;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+#addCardBtn:hover {
+  background-color: #026aa7;
+}
+
+
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+.card {
+  background: #f4f5f7;
+  border-radius: 12px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
+.card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+
+.card input[type="text"] {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+
+.card button {
+  padding: 8px 10px;
+  background-color: #61bd4f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background 0.3s;
+}
+
+.card button:hover {
+  background-color: #519839;
+}
+
+
+.task {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #fff;
+  padding: 6px 8px;
+  border-radius: 6px;
+  margin-top: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+
+.task input[type="text"] {
+  border: none;
+  background: transparent;
+  flex: 1;
+  font-size: 14px;
+  color: #333;
+}
+
+
+.task button {
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.task button:first-of-type {
+  background-color: #ffb347; 
+}
+
+.task button:first-of-type:hover {
+  background-color: #ff9f1a;
+}
+
+.task button:last-of-type {
+  background-color: #eb5a46; 
+}
+
+.task button:last-of-type:hover {
+  background-color: #cf513d;
+}
